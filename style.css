@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Joanhui add css*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bruno Ace SC", cursive;
+  color: #FFFFFF;
+  line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+}
+h1{
+    font-size: 128px;
+}
+h2{
+    font-size: 64px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.nav{
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+
+.fz-16{
+    font-size: 16px;
+}
+.fz-24{
+    font-size: 24px;
+}
+.mb-0{
+    margin-bottom: 4px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+.mb-4{
+    margin-bottom: 32px;
+}
+.mb-5{
+    margin-bottom: 36px;
+}
+.mb-28{
+    margin-bottom: 28px;
+}
+.mb-76{
+    margin-bottom: 76px;
+}
+.mr-2{
+    margin-right: 16px;
+}
+.mr-3{
+    margin-right: 24px;
+}
+.p-1{
+    padding: 16px;
+}
+.bg-black{
+    background: #000;
+}
+.w-50{
+    width: 636px;
+}
+.w-25{
+    width: 306px;
+}
+.text-right{
+    text-align: right;
+}
+/* 文字顏色 */
+.text-primary{
+    color: #00FFA3;
+}
+.text-secondary{
+    color: #15161D;
+}
+.text-black{
+    color: #000;
+}
+/* flex排版 */
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/* 按鈕元件 */
+.btn{
+    background: #fff;
+    padding: 12px 24px;
+    color: #000;
+    border-radius: 32px;
+}
+.btn2{
+    background: #000;
+    color: #fff;
+}
+.btn:hover{
+    background: #000;
+    color: #00FFA3;
+}
+.btn2:hover{
+    background: #fff;
+    color: #000;
+}
+.title-1{
+    width: 746px;
+    margin-left: auto;
+}
+
+
+.banner{
+    padding: 72px 0;
+}
+.introduction{
+    background-image: url("./img/background-img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px 0;
+}
+.introduction-content{
+    width: 526px;
+}
+.introduction-image{
+    width: 746px;
+}
+.about-card{
+    padding: 206px 0;
+}
+.about-card li{
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.about-content{
+    padding: 160px 0;
+    width: 526px;
+}
+.contact{
+    background:linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding: 96px 0;
+}
+.icon img{
+    width: 162px;
+    height: 162px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.icon li{
+    margin-right: 20px;
+}
+.icon img:hover{
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
+    border-radius: 40px;
+}
+.projects{
+    padding: 160px 0;
+}
+.footer{
+    padding: 40px 0;
+    text-align: center;
+}
